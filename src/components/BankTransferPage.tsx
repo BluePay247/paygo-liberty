@@ -16,7 +16,7 @@ const BankTransferPage: React.FC<BankTransferPageProps> = ({
   onBack, 
   onTransferConfirmed, 
   userEmail, 
-  amount = '₦6,500',
+  amount = '₦5,500',
   levelName 
 }) => {
   const [email, setEmail] = useState(userEmail);
@@ -29,9 +29,9 @@ const BankTransferPage: React.FC<BankTransferPageProps> = ({
       switch (level.toLowerCase()) {
         case 'silver':
           return {
-            accountNumber: '5569742889',
+            accountNumber: '5920913459',
             bankName: 'MONIEPOINT MFB',
-            accountName: 'SUNDAY LIBERTY'
+            accountName: 'GABRIEL CHIOKWA'
           };
         case 'gold':
           return {
