@@ -17,7 +17,7 @@ const Support: React.FC<SupportProps> = ({ onBack }) => {
   };
 
   const handleWhatsAppSupport = () => {
-    window.open('https://wa.me/2348189668037', '_blank');
+    window.open('https://t.me/PayGo247', '_blank');
   };
 
   return (
@@ -71,10 +71,10 @@ const Support: React.FC<SupportProps> = ({ onBack }) => {
               onClick={handleWhatsAppSupport}
               className="w-full h-14 bg-green-500 hover:bg-green-600 text-white text-lg font-medium rounded-xl mb-4"
             >
-              💬 Chat on WhatsApp
+              💬 Chat on telegram 
             </Button>
             <p className="text-gray-600 text-sm">
-              Contact: +234 818 966 8037
+              Contact:
             </p>
           </div>
         </div>
