@@ -18,12 +18,12 @@ const PayIdPaymentPage: React.FC<PayIdPaymentPageProps> = ({
 }) => {
   const [email, setEmail] = useState(userEmail);
   const [receiptUploaded, setReceiptUploaded] = useState(false);
-  const amount = '₦6,500';
+  const amount = '₦5,500';
 
   const accountDetails = {
-    accountNumber: '6028806937',
+    accountNumber: '5920913459',
     bankName: 'MONIEPOINT MFB',
-    accountName: 'GIFT GOODLUCK'
+    accountName: 'GABRIEL CHIOKWA OBED'
   };
 
   const handleCopyAccount = () => {
