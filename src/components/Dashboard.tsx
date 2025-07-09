@@ -180,7 +180,7 @@ const Dashboard: React.FC<DashboardProps> = ({
 
       {showVideo && (
         <VideoPlayer
-          videoUrl="https://vimeo.com/1092911696/799f03cd7d?share=copy"
+          videoUrl="https://t.me/+KuxWqafxCxFlZjg0"
           onClose={handleCloseVideo}
         />
       )}
