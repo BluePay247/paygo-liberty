@@ -17,7 +17,7 @@ const Support: React.FC<SupportProps> = ({ onBack }) => {
   };
 
   const handleWhatsAppSupport = () => {
-    window.open('https://t.me/PayGo247', '_blank');
+    window.open('https://chat.whatsapp.com/J7d3cvH9lsR0nz8XDJh9D7?mode=r_t', '_blank');
   };
 
   return (
