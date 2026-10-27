@@ -9,7 +9,7 @@ interface JoinCommunitiesProps {
 
 const JoinCommunities: React.FC<JoinCommunitiesProps> = ({ onBack }) => {
   const handleJoinWhatsApp = () => {
-    window.open('https://chat.whatsapp.com/Lic0WEAwGei4ckaIOcDqoh?mode=ems_copy_c', '_blank');
+    window.open('https://whatsapp.com/channel/0029VbBblldLCoX53dbTH91K', '_blank');
   };
 
   const handleJoinTelegram = () => {
