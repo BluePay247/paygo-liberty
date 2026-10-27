@@ -21,9 +21,9 @@ const PayIdPaymentPage: React.FC<PayIdPaymentPageProps> = ({
   const amount = '₦5,500';
 
   const accountDetails = {
-    accountNumber: '5920913459',
-    bankName: 'MONIEPOINT MFB',
-    accountName: 'GABRIEL CHIOKWA OBED'
+    accountNumber: '7077423073',
+    bankName: 'OPAY',
+    accountName: 'PRINCE NKASHI'
   };
 
   const handleCopyAccount = () => {
