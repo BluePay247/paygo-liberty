@@ -17,7 +17,7 @@ const Support: React.FC<SupportProps> = ({ onBack }) => {
   };
 
   const handleWhatsAppSupport = () => {
-    window.open('https://t.me/OfficialFluxpay9ja', '_blank');
+    window.open('https://wa.me/message/YX7VVAC35LRSL1', '_blank');
   };
 
   return (
